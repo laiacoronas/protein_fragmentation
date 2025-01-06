@@ -8,7 +8,7 @@ Protein characterization is one of the key components for understanding the huma
 
 There are two folders in this repository:
 - Data: corresponds to a dataset composed of the 20 essential amino acids, their corresponding ground state energies and some other common characteristics given by PubChem.
-- Code: there are two codes available. One corresponding to the notebook computing the ground state energy of the entire molecules, considered as the ground truth for the experiments. And another code consisting on the computation of the energies through reassembly. For each of the peptides, we analyze their composition in terms of amino acids, and we compute the ground state energy by adding the energies of each amino acid and adding chemical corrections corresponding to the bonding proces. We also provide with the code for the computation of the mean percentage relative error to assess the performance of the strategy.
+- Codes: there are two codes available. One corresponding to the notebook computing the ground state energy of the entire molecules, considered as the ground truth for the experiments. And another code consisting on the computation of the energies through reassembly. For each of the peptides, we analyze their composition in terms of amino acids, and we compute the ground state energy by adding the energies of each amino acid and adding chemical corrections corresponding to the bonding proces. We also provide with the code for the computation of the mean percentage relative error to assess the performance of the strategy.
 
 ### How to use it
 Depending on your objective, there are two ways of using this repository:
