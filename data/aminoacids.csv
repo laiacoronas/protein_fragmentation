@@ -1,4 +1,4 @@
-﻿id,,mf,energy,mw,polararea,complexity,xlogp,heavycnt,hbonddonor,hbondacc,rotbonds,exactmass,monoisotopicmass,covalentunitcnt,isotopeatomcnt,totalatomstereocnt,definedatomstereocnt,electrones,S
+﻿id,aa,mf,energy,mw,polararea,complexity,xlogp,heavycnt,hbonddonor,hbondacc,rotbonds,exactmass,monoisotopicmass,covalentunitcnt,isotopeatomcnt,totalatomstereocnt,definedatomstereocnt,electrones,S
 6274,hystidine,C6H9N3O2,-538.52442,155.15,92,151,-3.2,11,3,4,3,155.069,155.069,1,0,1,1,82,0
 6306,leucine,C6H13NO2,-433.42225,131.17,63.3,103,-1.7,9,2,3,3,131.095,131.095,1,0,2,2,72,0
 6106,isoleucine,C6H13NO2,-432.82708,131.17,63.3,101,-1.5,9,2,3,3,131.095,131.095,1,0,1,1,72,0
