@@ -39,7 +39,7 @@ def compute_protein_energy():
         total_energy = total_energy + float(additional_energies)
     print(f"The final computed energy of {protein_sequence} is: {total_energy:.5f} units")
     
-    dif = np.abs(gt-total_energy)
+    dif = np.abs(float(gt)-total_energy)
     error = dif/np.abs(gt)
     percentage_error = error * 100
     
