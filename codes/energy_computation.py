@@ -35,5 +35,5 @@ def compute_protein_energy():
 
     if additional_energies:
         total_energy = total_energy + float(additional_energies)
-    print(f"The final computed energy is: {total_energy:.5f} units")
+    print(f"The final computed energy of {protein_sequence} is: {total_energy:.5f} units")
     return total_energy
