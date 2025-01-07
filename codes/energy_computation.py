@@ -1,7 +1,9 @@
+import numpy as np
 def compute_protein_energy():
     protein_sequence = input("Enter the protein sequence (e.g., ser-gly-thr): ").lower()
     num_water_molecules = int(input("Enter the number of water molecules lost in bond formation: "))
     additional_energies = input("Additional energy corrections in Ha (if lost positive and if added negative):")
+    gt = input("Enter the ground truth energy of your protein in Hartrees (if you don't have it leave it blank)")
     amino_acid_energies = {
         "his": -538.52442,
         "leu": -433.42225,
@@ -36,4 +38,11 @@ def compute_protein_energy():
     if additional_energies:
         total_energy = total_energy + float(additional_energies)
     print(f"The final computed energy of {protein_sequence} is: {total_energy:.5f} units")
+    
+    dif = np.abs(gt-total_energy)
+    error = dif/np.abs(gt)
+    percentage_error = error * 100
+    
+    print(f"The error of reassembly of {protein_sequence} is of {percentage_error}%")
+    
     return total_energy
