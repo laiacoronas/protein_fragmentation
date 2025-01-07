@@ -1,5 +1,5 @@
 # Efficient Protein Ground State Energy Computation via Fragmentation and Reassembly
-This repository is made as supporting material for the paper "Efficient Hybrid Classical-Quantum Methods for Protein Ground State Energy Computation via Fragmentation and Reassembly".
+This repository is made as supporting material for the paper "Efficient Protein Ground State Energy Computation via Fragmentation and Reassembly".
 
 ### Abstract
 Protein characterization is one of the key components for understanding the human body and advancing drug discovery processes. While the future of quantum hardware holds the potential to accurately characterize these molecules, current efforts focus on developing strategies to fragment large molecules into computationally manageable subsystems. In this work, we propose a novel strategy to enable quantum simulation using existing quantum algorithms. Our approach involves fragmenting proteins into their corresponding amino acids, simulating them independently, and then reassembling them post-simulation while applying chemical corrections. This methodology demonstrates its accuracy by calculating the ground state of seven small peptides through reassembling, achieving a relative error of only 0.01 ± 0.02%. Future directions include investigating, with larger quantum computers, whether this approach remains valid for larger proteins.
