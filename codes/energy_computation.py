@@ -48,6 +48,6 @@ def compute_protein_energy():
         dif = np.abs(gt - total_energy)
         error = dif / np.abs(gt)
         percentage_error = error * 100
-        print(f"The error of reassembly of {protein_sequence} is of {percentage_error:.2f}%")
+        print(f"The error of reassembly of {protein_sequence} is of {percentage_error:.5f}%")
     
     return total_energy
