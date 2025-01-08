@@ -16,3 +16,6 @@ Depending on your objective, there are two ways of using this repository:
 - If you wish to obtain the energy for another peptide, you can either do it with the reassembling code by inputing you amino acid sequence or in the ground truth code by changing the atomic coordinates. We usually obtain the 3D coordinates directly from the PubChem database. 
 
 ### Citation
+```python
+Laia Coronas Sala, & Parfait Atchade-Adelmeou. (2025). Efficient Protein Ground State Energy Computation via Fragmentation and Reassembly. arXiv. https://doi.org/10.48550/arXiv.2501.03766
+```
